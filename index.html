@@ -1,12 +1,191 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zwulf — app policies</title>
-<style>body{font:16px/1.6 system-ui,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1.25rem}
-@media(prefers-color-scheme:dark){body{color:#e6e6e6;background:#111}a{color:#8ab4f8}}</style>
-</head><body>
-<h1>Zwulf apps — privacy policies</h1>
-<ul>
-  <li><a href="sudoku/privacy.html">Sudoku & Dragons</a> — privacy policy</li>
-</ul>
-<p>Contact: <a href="mailto:developer@zwulf.com">developer@zwulf.com</a></p>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zwulf — Independent Mobile Games &amp; Software Studio</title>
+  <meta name="description" content="Zwulf develops thoughtfully crafted, privacy-first mobile games and applications for Android.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fafafa;
+      --fg: #18181b;
+      --muted: #52525b;
+      --card-bg: #ffffff;
+      --border: #e4e4e7;
+      --accent: #d97706;
+      --link: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f12;
+        --fg: #f4f4f5;
+        --muted: #a1a1aa;
+        --card-bg: #18181c;
+        --border: #27272a;
+        --accent: #f59e0b;
+        --link: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .brand {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin: 0;
+      max-width: 40rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2.25rem 0 1rem;
+    }
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem 1.5rem;
+    }
+    .card-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+    .pkg {
+      font-size: 0.8rem;
+      color: var(--muted);
+      background: rgba(128, 128, 128, 0.12);
+      padding: 0.15rem 0.45rem;
+      border-radius: 0.35rem;
+    }
+    .card-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0.5rem 0 1rem;
+    }
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover { text-decoration: underline; }
+    .pillars {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+      margin-top: 1rem;
+    }
+    .pillar {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+    }
+    .pillar strong {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .pillar span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Zwulf Studio</div>
+    <h1>Crafted mobile games, private by design.</h1>
+    <p class="lead">Zwulf is an independent software and game development studio creating offline-first Android games and applications with zero ads, zero tracking, and no mandatory accounts.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Published Apps &amp; Games</h2>
+      <div class="grid">
+      <article class="card">
+        <div class="card-header">
+          <h3>Sudoku & Dragons</h3>
+          <code class="pkg">com.zwulf.sudoku</code>
+        </div>
+        <p class="card-desc">Available for Android on Google Play. Offline-capable, ad-free, and zero data collection.</p>
+        <div class="card-links">
+          <a href="sudoku/privacy.html">Privacy Policy &rarr;</a>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Our Privacy Commitment</h2>
+      <div class="pillars">
+        <div class="pillar">
+          <strong>No Data Collection</strong>
+          <span>Our apps do not collect, transmit, or sell personal data, device identifiers, or location info.</span>
+        </div>
+        <div class="pillar">
+          <strong>No Ads or Trackers</strong>
+          <span>Zero third-party advertising SDKs, analytics trackers, or dark patterns.</span>
+        </div>
+        <div class="pillar">
+          <strong>Local-First Storage</strong>
+          <span>Your game progress and settings stay on your device and work completely offline.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>&copy; 2026 Zwulf &middot; Published on Google Play</div>
+    <div>Support &amp; Inquiries: <a href="mailto:developer@zwulf.com">developer@zwulf.com</a></div>
+  </footer>
+</body>
+</html>
