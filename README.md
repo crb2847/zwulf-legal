@@ -1,8 +1,9 @@
-# zwulf legal pages
+# zwulf.com — studio site & legal pages
 
-Public privacy policies for zwulf.com apps, served by GitHub Pages at
-https://crb2847.github.io/zwulf-legal/ (Google Play requires a public privacy
-policy URL per app).
+Public studio homepage (`https://zwulf.com/`) and privacy policies for zwulf.com
+apps (`https://zwulf.com/<slug>/privacy.html`), served by GitHub Pages with custom
+domain `zwulf.com` (legacy `https://crb2847.github.io/zwulf-legal/...` URLs
+redirect automatically).
 
 Pages are generated from the `play-pipeline` repo:
 `python scripts/legal.py --app-id com.zwulf.<slug> --name "<App Name>"` writes
